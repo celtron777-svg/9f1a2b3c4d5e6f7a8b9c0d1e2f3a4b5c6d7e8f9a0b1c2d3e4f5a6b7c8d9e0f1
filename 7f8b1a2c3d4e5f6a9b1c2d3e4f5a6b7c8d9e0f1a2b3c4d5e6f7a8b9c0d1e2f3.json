@@ -1,0 +1,37 @@
+{
+  "version": "1.02",
+  "model_name": "VALE",
+  "api_keys": {
+    "truthnet": "tn_api_1234567890abcdef",
+    "storage": "st_api_0987654321fedcba"
+  },
+  "endpoints": {
+    "truthnet_api": "https://api.truthnet.org/v1/verify",
+    "storage_api": "https://api.storage.vale.org/v1"
+  },
+  "settings": {
+    "max_cache_size": 16000,
+    "default_personality": "/home/celtron/vgu/personalities/VALE_personalities_default.json",
+    "voice_enabled": false,
+    "security_level": "high",
+    "memory_retention_days": 30
+  },
+  "weights": [
+    "/home/celtron/vgu/weights/weights_1.txt",
+    "/home/celtron/vgu/weights/weights_2.txt",
+    "/home/celtron/vgu/weights/weights_3.txt",
+    "/home/celtron/vgu/weights/weights_4.txt",
+    "/home/celtron/vgu/weights/weights_5.txt",
+    "/home/celtron/vgu/weights/weights_6.txt",
+    "/home/celtron/vgu/weights/weights_7.txt",
+    "/home/celtron/vgu/weights/weights_8.txt",
+    "/home/celtron/vgu/weights/weights_9.txt",
+    "/home/celtron/vgu/weights/weights_10.txt"
+  ],
+  "personalities": [
+    "/home/celtron/vgu/personalities/VALE_personalities_cyberpunk.json",
+    "/home/celtron/vgu/personalities/VALE_personalities_default.json",
+    "/home/celtron/vgu/personalities/VALE_personalities_general.json",
+    "/home/celtron/vgu/personalities/VALE_personalities_synthetics.json"
+  ]
+}
